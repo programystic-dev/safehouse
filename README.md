@@ -13,7 +13,3 @@ Project is very simple and quick to implement as an application, but it would re
 Expo app is required. [Scan the code](https://expo.io/@graffme/safehouse) to run the app.
 
 ## Screenshots
-![Main screen](./assets/repo/screen1.png) <br />
-![List](./assets/repo/screen2.png) <br />
-![Info](./assets/repo/screen3.png) <br />
-![Private host info](./assets/repo/screen4.png) <br />

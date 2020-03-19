@@ -3,10 +3,10 @@ import { StyleSheet, Text, View } from 'react-native';
 import Colors from '../constants/Colors';
 import Styles from '../constants/Styles';
 
-const Pill = () => {
+const Pill = ({ color, text }) => {
     return (
-        <View style={[styles.pile, { position: "absolute", bottom: 10, left: 10 }]}>
-            <Text style={[Styles.whiteText, { fontSize: 12 }]}>Private host (verified)</Text>
+        <View style={[styles.pile, { position: "absolute", bottom: 10, left: 10, backgroundColor: color }]}>
+            <Text style={[Styles.whiteText, { fontSize: 12 }]}>{text}</Text>
         </View>
     );
 }

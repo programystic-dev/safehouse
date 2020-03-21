@@ -47,7 +47,7 @@ For private hosts, an additional verification process will be needed:
 4. The host automatically clicking on the link causes the apartment to be verified and the suite appears on the list.
 
 ## Motivation
-Idea heavily based on my experience during coronavirus outbreak. I got stuck ❌🛫in Los Angeles 5877 miles away from home and found out that due to the epidemic I can't continue working on a project that gave me a lot of joy and where I met a lot of amazing people 💔💔💔I am quite convinced that once I get back home quarantine will still be required. I would like to avoid contact with my loved onces so that they don't get infected. This is my way home 🏠
+Idea heavily based on my experience during coronavirus outbreak. I got stuck ❌🛫in Los Angeles 5877 miles away from home and found out that due to the epidemic I can't continue working on a project that gave me a lot of joy and where I met a lot of amazing people 💔💔💔I am quite convinced that once I get back home quarantine will still be required. I would like to avoid contact with my family and friends so that they don't get infected. This is my way home 🏠
 
 ## Screenshots
 ![Main screen](./assets/repo/main.png) <br />

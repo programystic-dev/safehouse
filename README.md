@@ -21,7 +21,7 @@ Check official React Native [documentation](https://reactnative.dev/docs/getting
 3. Enjoy the prototype 📱
 
 ## Safe place for quarantine 
-![Iconography 1](./assets/repo/comback.png) <br /><br />
+![Iconography 1](./assets/repo/comeback.png) <br /><br />
 In the daily report of the [Ministry of Health on Twitter](https://twitter.com/MZ_GOV_PL/), a huge number of people returning to the country are reported to quarantine every day. Many people may not be able to spend it at home or want to avoid it because of potential infection of the family. Also, people who are currently in the country may have the same problem. For example - the doctor finds out that he/she has had contact with a sick person and does not want to spend his/her quarantine in the family home.
 
 Hotels and apartments for rent are currently the most affected sector. It is worth convincing the owners to make their property available as safe quarantine facilities. In this way, two problems are solved:
@@ -31,6 +31,7 @@ Hotels and apartments for rent are currently the most affected sector. It is wor
 This is a quick prototype of an application with a list of apartments. Additional amenities could include grocery shopping with non-contact delivery or a **special bus/car for pick up and transport to the apartment**. 
 
 ## Adding apartments to the list
+![Iconography 2](./assets/repo/hosts.png) <br /><br />
 Project is very simple and quick to implement as an application, but it would require:
 * Cooperation of platforms like airbnb, booking.com and others.
 * A group of people who will verify applications of suites (form private hosts).

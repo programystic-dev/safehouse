@@ -17,7 +17,7 @@ export default function BottomTabNavigator() {
         inactiveTintColor: Colors.lightText,
         labelStyle: {
           fontSize: 14,
-          fontFamily: 'baloo-regular',
+          fontFamily: 'baloo-medium',
         },
         style: {
           height: 100,

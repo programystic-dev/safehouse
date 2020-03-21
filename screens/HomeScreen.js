@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
+import { ActivityIndicator, Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import Styles from '../constants/Styles';
 import Colors from '../constants/Colors';
 import { Input, SuiteCard, StyledText } from '../components';
@@ -28,11 +27,7 @@ const HomeScreen = () => {
       <ScrollView style={[Styles.container, { marginTop: 80 }]} contentContainerStyle={[Styles.scrollContainer]} showsVerticalScrollIndicator={false}>
         {(searchText.length === 0 && !loading) && (
           <View style={{ alignItems: 'center', justifyContent: 'center', marginTop: 120 }}>
-            <Ionicons
-              name="ios-home"
-              size={80}
-              color={Colors.tintColor}
-            />
+            <Image source={require('../assets/images/homeIcon.png')} style={{ width: 80, height: 80}} resizeMode="contain" />
             <Text style={[styles.logoText]}>safehouse</Text>
             <StyledText style={styles.infoText}>
               Are you looking for a safe place for quarantine? Do not panic! We have a list of
@@ -77,7 +72,6 @@ const styles = StyleSheet.create({
     color: Colors.tintColor,
     fontSize: 36,
     marginBottom: 20,
-    marginTop: -15,
   },
 })
 

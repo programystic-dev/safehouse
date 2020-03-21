@@ -52,15 +52,15 @@ Idea heavily based on my experience during coronavirus outbreak. I got stuck ❌
 
 ## Screenshots
 ![Main screen](./assets/repo/img1.png) <br />
-When the user enters the application he/she can see the welcome screen with the message.
+When the user enters the application he/she can see the welcome screen with the message.<br />
 ![Search](./assets/repo/img2.png) <br />
-The user can search for a suite in his area by entering the location or using the icon next to the search input.
+The user can search for a suite in his area by entering the location or using the icon next to the search input.<br />
 ![List](./assets/repo/img3.png) <br />
-The list includes apartments with information about the platform. After clicking the tile, a browser opens with a page where you can reserve a place.
+The list includes apartments with information about the platform. After clicking the tile, a browser opens with a page where you can reserve a place.<br />
 ![Info](./assets/repo/img4.png) <br />
-The screen for hosts includes the most important information about the requirements.
+The screen for hosts includes the most important information about the requirements.<br />
 ![Private host info](./assets/repo/img5.png) <br />
-There is also a form to submit a suite by a private host.
+There is also a form to submit a suite by a private host.<br />
 
 ## Graphic resources
 1. [Beautiful illustrations made by @stories](https://www.freepik.com/stories)<br />

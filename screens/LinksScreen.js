@@ -27,15 +27,17 @@ export default function LinksScreen() {
 
 const securityInstructions = () => (
   <>
-    <StyledText style={{ marginBottom: 10 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</StyledText>
-    <StyledText>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</StyledText>
+    <StyledText>
+      This panel contains the most important information about the requirements that apartments must meet
+      to be used for quarantine and how the hosts should clean the property after guests leave.</StyledText>
   </>
 );
 
 const platformHosts = () => (
   <>
-    <StyledText style={{ marginBottom: 10 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</StyledText>
-    <StyledText>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</StyledText>
+    <StyledText>
+      This panel contains information on how hosts sharing a flat via a platform can add it to the list. 
+    </StyledText>
   </>
 );
 
@@ -51,8 +53,9 @@ const FormInput = ({ onChangeText, placeholder }) => (
 
 const form = () => (
   <>
-  <StyledText style={{ marginBottom: 10 }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</StyledText>
-          <StyledText style={{ marginBottom: 10 }}>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</StyledText>
+  <StyledText style={{ marginBottom: 10 }}>
+    This panel contains information on how to add an apartment that is not available via supported platforms, and an application form.
+  </StyledText>
           <FormInput
             placeholder="Host's name"
             onChangeText={() => null}
@@ -82,7 +85,7 @@ const form = () => (
             onChangeText={() => null}
           />
           <FormInput
-            placeholder="Location"
+            placeholder="Address"
             onChangeText={() => null}
           />
           <Button

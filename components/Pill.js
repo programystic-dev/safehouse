@@ -2,11 +2,12 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Colors from '../constants/Colors';
 import Styles from '../constants/Styles';
+import { StyledText } from './';
 
-const Pill = ({ color, text }) => {
+const Pill = ({ color, text, style }) => {
     return (
-        <View style={[styles.pile, { position: "absolute", bottom: 10, left: 10, backgroundColor: color }]}>
-            <Text style={[Styles.whiteText, { fontSize: 12 }]}>{text}</Text>
+        <View style={[styles.pile, style, { backgroundColor: color }]}>
+            <StyledText style={styles.label}>{text}</StyledText>
         </View>
     );
 }
@@ -19,6 +20,11 @@ const styles = StyleSheet.create({
         borderRadius: 4,
         alignSelf: 'flex-start',
     },
-})
+    label: {
+        fontSize: 12,
+        fontFamily: 'baloo-medium',
+        color: '#FFFFFF',
+    },
+});
 
 export default Pill;

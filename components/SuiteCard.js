@@ -2,25 +2,25 @@ import React from 'react';
 import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import Styles from '../constants/Styles';
 import Colors from '../constants/Colors';
-import Pill from './Pill';
+import { Pill, StyledText } from './';
 
-const SuiteCard = ({ onChangeText, host, verified, value }) => {
+const SuiteCard = ({ host }) => {
     const renderPill = () => {
       if (host === 'airbnb') {
         return(
-          <Pill text="Airbnb" color="#e74c3c" />
+          <Pill text="Airbnb" color="#FF5A5F" style={styles.pill} />
         );
       }
 
       if (host === 'booking.com') {
         return(
-          <Pill text="Booking.com" color="#2980b9" />
+          <Pill text="Booking.com" color="#003580" style={styles.pill} />
         );
       }
 
       if (host === 'private') {
         return(
-          <Pill text="Private host (verified)" color={Colors.tintColor} />
+          <Pill text="Private host" color={Colors.tintColor} style={styles.pill} />
         );
       }
     }
@@ -34,9 +34,9 @@ const SuiteCard = ({ onChangeText, host, verified, value }) => {
             {renderPill()}
           </View>
           <View style={styles.card}>
-              <Text style={Styles.title}>Cosy apartment with a view</Text>
-              <Text style={{ marginBottom: 10 }}>1-2 guests  ·  1 bed  ·  1 bathroom</Text>
-              <Text>Poznań</Text>
+              <StyledText style={styles.title}>Cosy apartment with a view</StyledText>
+              <StyledText style={{ marginBottom: 5 }}>1-2 guests  ·  1 bed  ·  1 bathroom</StyledText>
+              <StyledText>Poznań</StyledText>
           </View>
         </TouchableOpacity>
     );
@@ -44,7 +44,18 @@ const SuiteCard = ({ onChangeText, host, verified, value }) => {
 
 const styles = StyleSheet.create({
     card: {
-        padding: 20,
+        paddingVertical: 15,
+        paddingHorizontal: 20,
+    },
+    title: {
+      fontSize: 26,
+      fontFamily: 'baloo-medium',
+      color: Colors.text,
+    },
+    pill: {
+      position: "absolute",
+      bottom: 10,
+      left: 15,
     },
 });
 

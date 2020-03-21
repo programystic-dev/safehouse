@@ -14,7 +14,15 @@ export default function BottomTabNavigator() {
       initialRouteName={INITIAL_ROUTE_NAME} 
       tabBarOptions={{
         activeTintColor: Colors.tintColor,
-        inactiveTintColor: 'gray',
+        inactiveTintColor: Colors.lightText,
+        labelStyle: {
+          fontSize: 14,
+          fontFamily: 'baloo-regular',
+        },
+        style: {
+          height: 100,
+          paddingTop: 15,
+        },
       }}> 
       <BottomTab.Screen
         name="Find"

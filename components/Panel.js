@@ -1,6 +1,7 @@
 import React from 'react';
 import { Animated, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import Styles from '../constants/Styles';
+import Colors from '../constants/Colors';
 import { FontAwesome } from '@expo/vector-icons';
 
 const Panel = ({ children, title }) => {
@@ -31,8 +32,8 @@ const Panel = ({ children, title }) => {
                 <FontAwesome
                     name={expanded ? "caret-up" : "caret-down"}
                     size={30}
-                    style={{ marginLeft: 'auto' }}
-                    color="grey"
+                    style={{ marginLeft: 'auto', marginTop: -3 }}
+                    color={Colors.lightText}
                 />
             </TouchableOpacity>
             <Animated.View style={styles.panelDescContainer}>
@@ -47,6 +48,8 @@ const Panel = ({ children, title }) => {
 const styles = StyleSheet.create({
     panelTitle: {
         fontSize: 20,
+        fontFamily: 'baloo-medium',
+        color: Colors.tintColor,
     },
     panelDescContainer: {
         padding: 20,
@@ -56,7 +59,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         paddingHorizontal: 20,
-        paddingVertical: 10,
+        paddingVertical: 15,
     },
 });
 

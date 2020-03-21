@@ -3,15 +3,14 @@ import Colors from './Colors';
 
 export default Styles = StyleSheet.create({
   baseContainer: {
-    paddingTop: 60,
     paddingHorizontal: 20,
   },
   container: {
     flex: 1,
   },
   scrollContainer: {
-    marginTop: 20,
-    paddingBottom: 20,
+    marginTop: 70,
+    paddingBottom: 70,
   },
   card: {
     padding: 20,
@@ -31,8 +30,9 @@ export default Styles = StyleSheet.create({
   whiteText: {
     color: '#FFFFFF'
   },
-  title: {
-    fontSize: 26,
-    marginBottom: 10,
-  }
+  text: {
+    fontFamily: 'baloo-regular',
+    color: Colors.text,
+    fontSize: 16,
+  },
 });

@@ -1,6 +1,7 @@
 ![Logo](./assets/repo/safehouse.png) <br /><br />
 
 Project created for the hackathon [Hack the Crisis](https://www.hackcrisis.com/). Let's save the world together 🚀
+Check out the [video](https://youtu.be/g6gpJvr-Ps4) about the app!
 
 ## Run the project
 ### Run locally on your computer

@@ -51,6 +51,7 @@ For private hosts, an additional verification process will be needed:
 Idea heavily based on my experience during coronavirus outbreak. I got stuck ❌🛫in Los Angeles 5877 miles away from home and found out that due to the epidemic I can't continue working on a project that gave me a lot of joy and where I met a lot of amazing people 💔💔💔I am quite convinced that once I get back home quarantine will still be required. I would like to avoid contact with my family and friends so that they don't get infected. This is my way home 🏠
 
 ## Screenshots
+![Gif](./assets/repo/maingif.gif) <br />
 ![Main screen](./assets/repo/img1.png) <br />
 When the user enters the application he/she can see the welcome screen with the message.<br />
 ![Search](./assets/repo/img2.png) <br />

@@ -51,10 +51,16 @@ For private hosts, an additional verification process will be needed:
 Idea heavily based on my experience during coronavirus outbreak. I got stuck ❌🛫in Los Angeles 5877 miles away from home and found out that due to the epidemic I can't continue working on a project that gave me a lot of joy and where I met a lot of amazing people 💔💔💔I am quite convinced that once I get back home quarantine will still be required. I would like to avoid contact with my family and friends so that they don't get infected. This is my way home 🏠
 
 ## Screenshots
-![Main screen](./assets/repo/main.png) <br />
-![List](./assets/repo/list.png) <br />
-![Info](./assets/repo/info.png) <br />
-![Private host info](./assets/repo/form.png) <br />
+![Main screen](./assets/repo/img1.png) <br />
+When the user enters the application he/she can see the welcome screen with the message.
+![Search](./assets/repo/img2.png) <br />
+The user can search for a suite in his area by entering the location or using the icon next to the search input.
+![List](./assets/repo/img3.png) <br />
+The list includes apartments with information about the platform. After clicking the tile, a browser opens with a page where you can reserve a place.
+![Info](./assets/repo/img4.png) <br />
+The screen for hosts includes the most important information about the requirements.
+![Private host info](./assets/repo/img5.png) <br />
+There is also a form to submit a suite by a private host.
 
 ## Graphic resources
 1. [Beautiful illustrations made by @stories](https://www.freepik.com/stories)<br />
